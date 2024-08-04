@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+.custom-navbar {
+background-color:beige;
+font-family: fantasy;
+border-radius: 15px;
+}
+
+/* Card */
+
+.Card-container{
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    transition: all 0.2s ease; /* o cualquier otro valor de transición que desees */
+    cursor: grab;
+    margin-top: 10px;
+}
+
+.card-title{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: x-large;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+.card-p{
+    font-size: 14px;
+}
+
+.columnas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: normal;
+    border: none;
+    color: black;
+  }
+  
+  .droppable-column {
+    flex: 1;
+    margin: 0 10px;
+    background-color: #f0f0f0; /* Fondo constante para las columnas */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .listg {
+    color: black;
+    border: none;
+  }
+  
+  .Drp-col {
+    color: black;
+    border: none;
+  }
+  
+  .list-drp {
+    color: black;
+    border: none;
+  }
+  
+  .flex-item {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .column-header {
+    text-align: center;
+    font-weight: bold;
+    background-color: #dcdcdc; /* Fondo constante para el encabezado */
+    border: none; /* Remover bordes por defecto */
+  }
+  
+  .droppable-column .list-group-item {
+    margin-bottom: 10px;
+    background-color: #f0f0f0; /* Fondo constante para las columnas */
+    margin-left: 75px;
+    text-decoration: underline;
+    text-decoration-color: red;
+        border-radius: 15px;
+  }
+  
+  .droppable-column .list-group-item:last-child {
+    margin-bottom: 0;
+  }
+  

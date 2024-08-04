@@ -1,0 +1,22 @@
+.avatar-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: normal;
+  align-content: flex-end;
+}
+
+.avatar-item {
+  margin-left: -13px; /* Ajusta esto para el solapamiento */
+  z-index: 1; /* Asegura que los avatares posteriores se solapen sobre los anteriores */
+}
+
+.avatar-item:first-child {
+  margin-left: 0; /* El primer avatar no debe tener margen a la izquierda */
+}
+
+.avatar-img {
+  width: 40px;
+  height: 40px;
+}

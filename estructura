@@ -1,0 +1,27 @@
+-Modelo 
+https://www.figma.com/design/Ny0Vvl7BldSOhN4Pb1vTpU/Task-Management-App-(Community)?node-id=0-1&t=POSLe4D3eqoOxuQz-0
+
+Home
+    .barra de navegacion: -Titulo
+                     -Img miembros 
+                     -Add miembros
+
+    .Main con: -Searchbar
+               -tres botones
+
+    tres columnas:
+    .To do (cantidad) 
+    .Agregar (+ y ...)
+    .Abajo cards
+
+    .In Progress (cantidad) 
+    .Agregar (+ y ...)
+    .Abajo cards
+
+    .In Review (cantidad) 
+    .Agregar (+ y ...)
+    .Abajo cards
+
+    .Done (cantidad) 
+    .Agregar (+ y ...)
+    .Abajo cards
